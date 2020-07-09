@@ -165,12 +165,10 @@ export class _Blank extends React.Component {
         />
         <View
           style={{
-            width: "100%",
-            height: "15%",
-            marginLeft: 0,
-            marginRight: 0,
-            marginTop: 0,
-            marginBottom: 0,
+            width: "60%",
+            height: 5,
+            marginLeft: "20%",
+            marginRight: "20%",
             paddingLeft: 0,
             paddingRight: 0,
             paddingTop: 0,
@@ -180,7 +178,6 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 20,
             color: "#000000",
-            backgroundColor: "#ffffff",
             fontStyle: "normal",
             fontWeight: "normal",
             flexDirection: "column",
@@ -198,7 +195,33 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Button
+            style={{
+              width: "100%",
+              marginLeft: 0,
+              marginRight: 0,
+              overflow: "visible",
+              verticalAlign: "baseline",
+              fontSize: 14,
+              color: "#ffffff",
+              backgroundColor: "#fd6f80",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+            onPress={() => alert("Pressed!")}
+          >
+            Return to Profile
+          </Button>
+        </View>
         <View
           style={{
             width: "100%",
