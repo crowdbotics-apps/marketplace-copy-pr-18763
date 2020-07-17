@@ -247,7 +247,7 @@ export class _Blank extends React.Component {
                 height: "100%",
                 marginLeft: 0,
                 marginRight: 0,
-                marginTop: 0,
+                marginTop: "3%",
                 marginBottom: 0,
                 paddingLeft: 0,
                 paddingRight: 0,
@@ -276,7 +276,38 @@ export class _Blank extends React.Component {
                 borderRadius: 0,
                 backgroundSize: "auto"
               }}
-            />
+            >
+              <Text
+                style={{
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginTop: "0%",
+                  marginBottom: 0,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                  paddingTop: 0,
+                  paddingBottom: 0,
+                  overflow: "visible",
+                  textAlign: "center",
+                  verticalAlign: "baseline",
+                  fontSize: 32,
+                  color: "#fd6f80",
+                  backgroundColor: "#ffffff",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: 0,
+                  borderLeftWidth: 0,
+                  borderRightWidth: 0,
+                  borderTopWidth: 0,
+                  borderBottomWidth: 0,
+                  borderRadius: 0
+                }}
+              >
+                $220
+              </Text>
+            </View>
           </View>
         </View>
         <View
